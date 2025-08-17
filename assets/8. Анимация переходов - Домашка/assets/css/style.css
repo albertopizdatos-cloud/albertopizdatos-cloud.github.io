@@ -1,0 +1,168 @@
+*{
+
+    box-sizing: border-box;
+
+}
+
+
+
+
+
+.component{
+
+    display: flex;
+
+    border-bottom: 1px solid grey;
+    
+
+    
+
+    
+}
+
+.component:last-of-type {
+    border-bottom: none; 
+}
+
+
+.container{
+
+    border: 1px solid grey;
+    width: 110vh;
+
+    margin: 0px auto;
+    
+
+}
+
+img{
+
+    
+    width: 27vh;
+    height: 27vh;
+    margin: auto 0vh auto 1vh;
+    transition: 1s;
+    
+
+
+
+}
+
+.component:hover > img{
+
+    
+
+    transform: scale(1.06);
+
+    
+}
+
+
+
+.opisanie{
+
+    
+    margin-left: 10px;
+    padding: 0vh 0vh 2vh 0vh;
+    min-width: 50vh;
+    
+}
+
+.opisanie > p:first-child{
+
+    font-size: 4vh;
+    font-weight: bold;
+    
+
+}
+
+.nizopisaniya{
+
+   display: flex; 
+
+   gap: 10px;
+
+   margin-top: 5vh;
+
+   
+
+   
+
+}
+
+.nizopisaniya > button{
+
+    border: none;
+    display: flex;
+    margin-top: 20px;
+    background: none;
+    padding: 5px;
+
+    
+    
+
+}
+
+.component:hover .nizopisaniya > button:nth-of-type(2) {
+    opacity: 1;
+    
+}
+
+.nizopisaniya > button:nth-of-type(2){
+
+   opacity: 0;
+   transition: opacity 1s ease;
+
+}
+
+
+
+.pravaja{
+
+    margin-left: 1vh;
+    padding: 0vh 1vh 1vh 0vh;    
+    min-width: 25vh;
+
+}
+
+.pravaja > p:first-child{
+
+    font-size: 4vh;
+    font-weight: bold;
+    
+    color: orange;
+    
+}
+
+.pravaja > button{
+
+    width: 100%; 
+
+    
+
+    margin: 5px;
+
+    color: rgb(250, 232, 232);
+
+    padding: 8px;
+
+    background: orange;
+
+}
+
+.component:hover .pravaja > button:nth-of-type(2){
+
+    opacity: 1;
+    
+
+}
+
+.pravaja > button:nth-of-type(2){
+
+    background: green;
+
+    opacity: 0;
+    
+    transition: opacity 1s ease;
+
+}

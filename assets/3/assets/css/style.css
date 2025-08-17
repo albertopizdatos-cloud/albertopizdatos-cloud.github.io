@@ -1,0 +1,43 @@
+
+h1 {
+    color: rgba(109, 190, 136, 0.9);
+
+    background-color: #fbff00;
+
+    text-shadow: 3px 3px 5px blue;
+
+
+}
+
+    h1 {
+
+        text-align: center;
+
+    }
+
+    p {
+
+        text-align: justify;
+
+    }    
+
+.annotation {
+
+    font-style: italic;
+
+}
+
+i {
+
+    color: blue;
+
+}
+
+ body {
+
+    background: linear-gradient(45deg, blue, yellow purple,)
+
+ }
+
+
+

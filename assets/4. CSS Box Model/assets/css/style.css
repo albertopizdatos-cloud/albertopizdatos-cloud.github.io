@@ -1,0 +1,59 @@
+body{
+
+    margin: 0px;
+
+}
+
+*{
+
+    box-sizing: border-box;
+
+    overflow: auto;
+
+}
+
+article{
+
+    background: yellow;
+
+    margin: 20px 0px;
+    
+    padding: 20px;
+    
+    border: 1px solid red;
+    
+
+    border-radius: 20px ;
+
+    box-shadow: 2px 2px 10px black;
+
+    
+}
+
+div{
+
+   text-align: justify; 
+
+} 
+
+img {
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px black;
+    padding: 5px;
+    background: white;
+    object-fit: cover;
+
+}
+
+.container {
+
+    width: clamp(400px, 70vw, 960px);
+
+    margin: 0px auto;
+
+}
+
+

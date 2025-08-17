@@ -1,0 +1,105 @@
+
+/* Template Styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', sans-serif;
+    margin: 0;
+}
+
+
+/* End Template Styles */
+
+
+
+div:first-child{
+
+    width: 400px;
+
+    border: 3px solid greenyellow;
+
+    margin: 20px auto;
+
+    padding: 20px;
+
+}
+
+ img:first-child {
+
+    max-width: 100%;
+
+ }
+
+ img:not(:first-child){
+
+    width: 24%;
+
+    border: 2px solid green;
+
+    padding: 5px;
+
+ }
+
+ h1{
+
+    font-size: 20px;
+
+ } 
+
+ h1 + div {
+
+    color: grey ;
+
+    font-size: 14px;
+
+ }
+
+
+ span:nth-child(1){
+
+    color: gray;
+    text-decoration: line-through;
+    display: block;
+    margin: 10px 0px;
+    
+ }
+
+ span:nth-child(even){
+
+    color: red;
+
+    font-size: 20px;
+
+ }
+
+ span:last-child{
+
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 15px;
+    transform: rotate(5deg);
+    display: inline-block;
+
+ }
+
+ button{
+
+    margin-top: 15px; 
+    background: green;
+    color: white;
+    padding: 10px;
+    width: 100%;
+
+ }
+
+
+
+
+
+
+

@@ -1,0 +1,103 @@
+
+
+
+article{
+
+    
+
+    background-image:linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2)), url(../img/_\ \(2\).jpeg);
+
+    background-size: 100% auto;
+
+   
+
+    width: clamp(400px, 70vw, 960px);
+
+
+    margin: 20px auto;
+
+    padding: 20px;
+
+    min-height: 100vw;
+
+    text-align: center;
+
+    border-left: 20px solid red;
+
+    border-right: 20px solid blue;
+
+    
+
+}
+
+article p{
+
+    margin-bottom: 20px;
+
+    font-size: 20px;
+
+}
+
+h1{
+
+    font-family: "Fascinate", system-ui; ;
+
+}
+
+.p1{
+
+   font-family: "Fascinate", system-ui; 
+
+}
+
+.p2{
+
+  font-family: "Kablammo", system-ui;  
+
+}
+
+.p3{
+
+   font-family: "Rubik Wet Paint", system-ui; 
+
+}
+
+.p4{
+
+    font-family: "Rubik Iso", system-ui;
+
+}
+
+.p5{
+
+    font-family: "Kablammo", system-ui; 
+
+}
+
+.p6{
+
+    font-family: "Fascinate", system-ui;
+
+    background-color: white;
+    
+    border-radius: 5px;
+
+    transform: rotate(-3deg);
+
+    display: inline-block;
+}
+
+.p7{
+
+    font-family: "Rubik Wet Paint", system-ui; 
+    
+    text-align: right;
+
+    
+    
+
+}
+
+
+
+

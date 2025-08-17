@@ -1,0 +1,86 @@
+ /* *{
+
+    box-sizing: border-box;
+
+    overflow: auto; 
+
+   } */
+
+/* body{
+
+    max-width: 0px;
+
+} */
+
+
+.container {
+
+    background-image: url(../img/YouTube.jpeg) ;
+
+    background-size:cover;
+
+    background-position: center;
+
+    
+
+    
+    
+
+    
+
+    
+}
+
+article{
+
+    width: clamp(400px, 70vw, 960px);
+    
+    margin: 20px auto;
+
+    padding: 20px;
+    
+
+    text-align: justify;
+
+    
+
+    
+
+}
+
+h1{
+
+  font-size: 30px;  
+
+}
+
+.button-group button{
+
+    border: none;
+    border-left: 1px solid;
+    background: none;
+    
+    
+
+}
+
+button:first-child{
+
+    border-left: none;
+
+}
+
+img{
+
+  width: 70vw; 
+  
+  height: 100px;
+
+  padding: 5px 5px 5px 0px;
+
+  object-fit: cover;
+
+}
+
+
+
