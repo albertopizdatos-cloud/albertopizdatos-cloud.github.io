@@ -1,0 +1,103 @@
+.zas{
+
+    
+    width: 100%;
+    height: 40vh;
+    
+
+}
+
+
+.menu{
+
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    
+    grid-template-columns: repeat(3, 1fr);
+    
+    grid-template-areas: "spider marvel iron";
+    
+}
+
+.main{
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+    gap: 20px;
+    justify-content: center;
+    
+    
+   
+
+}
+
+
+
+.menu > button {
+      
+    height: 20vh;         /* одинаковая высота всех ячеек */
+    overflow: hidden;
+    padding: 0;
+}
+
+.menu img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;    /* картинка заполняет всю ячейку без искажений */
+    display: block;
+}
+
+
+
+
+
+
+
+.main .card {
+     
+    cursor: pointer;  /* курсор при наведении */
+    
+}
+
+/* Плавный переход картинки */
+.main .card-img-top {
+    transition: transform 0.3s ease;
+}
+
+/* Поднимаем картинку при hover */
+.main .card:hover .card-img-top {
+    transform: translateY(-5px);
+}
+
+/* Плавный переход текста */
+.main .card-title {
+    transition: color 0.3s ease;
+}
+
+/* Меняем цвет текста при hover на карточке */
+.main .card:hover .card-title {
+    color: #dc3545; /* красный цвет */
+}
+
+.main .card-img-top {
+    height: 40vh;        /* 20% от высоты окна */
+    object-fit: cover;
+    width: 100%;
+}
+
+footer{
+
+    display: grid;
+    gap: 50px;
+    padding: 10px;
+    
+    grid-template-columns: repeat(3, 1fr);
+    
+    
+    
+
+}
+
+
